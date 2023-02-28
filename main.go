@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"leetCode/routine"
-)
+import "leetCode/routine"
 
 func main() {
 	//l1 := lib.ListNode{2, &lib.ListNode{4, &lib.ListNode{3, nil}}}
@@ -106,6 +103,14 @@ func main() {
 	//}(out)
 	//time.Sleep(1e9)
 
-	ch := routine.Sieve()
-	fmt.Print(<-ch, " ")
+	//ch := routine.Sieve()
+	//fmt.Print(<-ch, " ")
+
+	//res, pos := routine.Fibonacci(10)
+	//fmt.Printf("res=%d,pos=%d", res, pos)
+	//routine.TickTok()
+	//routine.Start()
+	//routine.Start2()
+	//routine.Start3()
+	routine.PrintOnce()
 }
